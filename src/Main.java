@@ -13,7 +13,7 @@ class Main {
 
         // Traverse array elements from second and
         // compare every element with current max
-        for (i = 1; i < arr.length-1; i++)
+        for (i = 1; i < arr.length; i++)
             if (arr[i] > max)
                 max = arr[i];
 
